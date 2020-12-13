@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h2>What Can JavaScript Do?</h2>
+<h2>Test Notificatio?</h2>
 
 <p>JavaScript can change HTML attribute values.</p>
 
