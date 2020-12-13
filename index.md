@@ -2,17 +2,17 @@
 <html>
 <body>
 
-<h2>Test Notificatio?</h2>
+<h2>Test Notification</h2>
 
-<p>JavaScript can change HTML attribute values.</p>
+<p>a simple web page to test notifications</p>
 
 <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<button onclick="document.getElementById('myImage').src='https://www.google.com/images/srpr/logo4w.png'">Turn on the light</button>
 
 <img id="myImage" src="https://www.google.com/images/srpr/logo4w.png" style="width:100px">
 
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<button onclick="document.getElementById('myImage').src='https://www.google.com/images/srpr/logo4w.png'">Turn off the light</button>
 
 </body>
 </html>
