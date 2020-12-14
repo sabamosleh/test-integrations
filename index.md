@@ -44,7 +44,7 @@
     Pushe.getPermissionState().then(permission => {
     if (permission === 'granted') {
         Pushe.getDeviceId().then(deviceId => {
-            alert(`User has granted the permission and unique deviceId is: ${deviceId}`);
+            console.log(`User has granted the permission and unique deviceId is: ${deviceId}`);
         })
     }
 });
