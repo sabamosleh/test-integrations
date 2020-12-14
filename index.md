@@ -41,6 +41,13 @@
 <script>
     Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
+    Pushe.getPermissionState().then(permission => {
+    if (permission === 'granted') {
+        Pushe.getDeviceId().then(deviceId => {
+            console.log(`User has granted the permission and unique deviceId is: ${deviceId}`);
+        })
+    }
+});
 </script>
 
 </body>
