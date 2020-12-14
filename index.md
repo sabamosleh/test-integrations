@@ -1,5 +1,30 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+        <link rel="manifest" href="/manifest.json">
+      <!-- Najva Push Notification -->
+        <script type="text/javascript">
+            (function(){
+                var now = new Date();
+                var version = now.getFullYear().toString() + "0" + now.getMonth() + "0" + now.getDate() +
+                    "0" + now.getHours();
+                var head = document.getElementsByTagName("head")[0];
+                var link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = "https://app.najva.com/static/css/local-messaging.css" + "?v=" + version;
+                head.appendChild(link);
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.async = true;
+                script.src = "https://app.najva.com/static/js/scripts/github39-website-20977-dac58fb2-7701-41fd-9d0d-85bb70475c52.js" + "?v=" + version;
+                head.appendChild(script);
+                })()
+        </script>
+        <!-- END NAJVA PUSH NOTIFICATION -->
+      
+</head>
+
 <body>
 
 <h2>Test Notification</h2>
