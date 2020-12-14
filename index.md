@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<!-- <head>
         <link rel="manifest" href="/manifest.json">
-      <!-- Najva Push Notification -->
         <script type="text/javascript">
             (function(){
                 var now = new Date();
@@ -21,9 +20,8 @@
                 head.appendChild(script);
                 })()
         </script>
-        <!-- END NAJVA PUSH NOTIFICATION -->
       
-</head>
+</head> -->
 
 <body>
 
