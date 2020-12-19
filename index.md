@@ -23,6 +23,18 @@
       
 </head> -->
 
+<head>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "aed47042-40cf-4f9a-9d75-b11579f02f17",
+    });
+  });
+</script>
+</head>
+
 <body>
 
 <h2>Test Notification</h2>
