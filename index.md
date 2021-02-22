@@ -38,11 +38,10 @@
 <button onclick="document.getElementById('myImage').src='https://www.google.com/images/srpr/logo4w.png'">Turn off the light</button>
 
 <script src="https://static.pushe.co/pusheweb.js"></script>
-<script>
-	importScripts("https://batch.com/batchsdk-worker-loader.js");
-    Pushe.init("5ej158r7z9r8278e");
+<script src="https://batch.com/batchsdk-worker-loader.js"></script>
+   <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
-</script>
+-->
 
 </body>
 </html>
