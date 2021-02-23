@@ -27,7 +27,7 @@
 
 <h2>Test Notification</h2>
 
-<p>a simple web page to test notifications</p>
+<p>a simple web page to test in-app-message </p>
 
 <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
