@@ -25,11 +25,11 @@
 
 <body>
 
-<h2>Test in-app-messaging-6</h2>
+<h2>Test in-app-messaging-8</h2>
 
 <p>a simple web page to test in-app-message </p>
 
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+<p>What do i know?</p>
 
 <button onclick="document.getElementById('myImage').src='https://www.google.com/images/srpr/logo4w.png'">Turn on the light</button>
 
@@ -42,8 +42,7 @@
 
 native: {
     "backoffDuration": 86400,
-    
-    "autoShow":false
+    "autoShow":true
 }
 	
 const eventsList = ["pushsubscriptionchange", "install", "push", "notificationclick", "message"];
