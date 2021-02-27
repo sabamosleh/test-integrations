@@ -47,7 +47,7 @@
           navigator.serviceWorker.register('/batchsdk-worker-loader.js');
         });
       // }
-      batchSDK("ui.show", "alert", true);
+      // batchSDK("ui.show", "alert", true);
 </script>
 
    <!-- Pushe.init("5ej158r7z9r8278e");
