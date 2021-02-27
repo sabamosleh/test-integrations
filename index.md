@@ -38,10 +38,8 @@
 <button onclick="document.getElementById('myImage').src='https://www.google.com/images/srpr/logo4w.png'">Turn off the light</button>
 
 <!--<script src="https://static.pushe.co/pusheweb.js"></script>-->
-<script>
+<script src="https://via.batch.com/v2/worker.min.js">
 	
-	importScripts("https://via.batch.com/v2/worker.min.js");
-
 const eventsList = ["pushsubscriptionchange", "install", "push", "notificationclick", "message"];
 eventsList.forEach(eventName => {
   self.addEventListener(eventName, event => {
