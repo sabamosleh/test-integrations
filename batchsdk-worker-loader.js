@@ -1,5 +1,5 @@
-importScripts("https://via.batch.com/v2/worker.min.js");
-
+//importScripts("https://via.batch.com/v2/worker.min.js");
+importScripts("worker.min.js");
 const eventsList = ["pushsubscriptionchange", "install", "push", "notificationclick", "message"];
 eventsList.forEach(eventName => {
   self.addEventListener(eventName, event => {
