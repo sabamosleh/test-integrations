@@ -48,7 +48,12 @@
         });
       }
 </script>
-
+<script type="text/javascript">
+	native: {
+    "backoffDuration": 60,
+    "autoShow":true
+}
+</script>
    <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
 -->
