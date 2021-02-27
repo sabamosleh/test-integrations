@@ -39,6 +39,12 @@
 
 <!--<script src="https://static.pushe.co/pusheweb.js"></script>-->
 <script src="https://via.batch.com/v2/worker.min.js">
+
+native: {
+    "backoffDuration": 86400,
+    
+    "autoShow":false
+}
 	
 const eventsList = ["pushsubscriptionchange", "install", "push", "notificationclick", "message"];
 eventsList.forEach(eventName => {
@@ -47,9 +53,7 @@ eventsList.forEach(eventName => {
   });
 });
 
-native: {
-    "backoffDuration": 86400
-}
+
 
 </script>
    <!-- Pushe.init("5ej158r7z9r8278e");
