@@ -25,7 +25,7 @@
 
 <body>
 
-<h2>Test in-app-messaging-8</h2>
+<h2>Test in-app-messaging-9</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -38,22 +38,9 @@
 <button onclick="document.getElementById('myImage').src='https://www.google.com/images/srpr/logo4w.png'">Turn off the light</button>
 
 <!--<script src="https://static.pushe.co/pusheweb.js"></script>-->
-<script src="https://via.batch.com/v2/worker.min.js">
+<script src="https://batch.com/static/batchsdk-worker-loader.js">
 
-native: {
-    "backoffDuration": 60,
-    "autoShow":true
-}
 	
-const eventsList = ["pushsubscriptionchange", "install", "push", "notificationclick", "message"];
-eventsList.forEach(eventName => {
-  self.addEventListener(eventName, event => {
-    event.waitUntil(self.handleBatchSDKEvent(eventName, event));
-  });
-});
-
-
-
 </script>
    <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
