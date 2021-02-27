@@ -25,7 +25,7 @@
 
 <body>
 
-<h2>Test in-app-messaging-19</h2>
+<h2>Test in-app-messaging-20</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -49,10 +49,7 @@
       }
 </script>
 <script type="text/javascript">
-	native: {
-    "backoffDuration": 60,
-    "autoShow":true
-}
+	batchSDK("ui.show", "alert", true);
 </script>
    <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
