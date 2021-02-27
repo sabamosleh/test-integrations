@@ -25,7 +25,7 @@
 
 <body>
 
-<h2>Test in-app-messaging-14</h2>
+<h2>Test in-app-messaging-1۵</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -38,11 +38,7 @@
 <button onclick="document.getElementById('myImage').src='https://www.google.com/images/srpr/logo4w.png'">Turn off the light</button>
 
 <!--<script src="https://static.pushe.co/pusheweb.js"></script>-->
-<script src="batchsdk-worker-loader.js"></script>
-<script >
-
-
-</script>
+<script src="https://batch.com/batchsdk-worker-loader.js"></script>
    <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
 -->
