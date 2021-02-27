@@ -41,7 +41,7 @@
 <script src="https://via.batch.com/v2/worker.min.js">
 
 native: {
-    "backoffDuration": 86400,
+    "backoffDuration": 60,
     "autoShow":true
 }
 	
