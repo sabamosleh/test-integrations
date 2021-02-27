@@ -25,7 +25,7 @@
 
 <body>
 
-<h2>Test in-app-messaging-20</h2>
+<h2>Test in-app-messaging-22</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -42,11 +42,11 @@
 
 <script>
 
-	 if ('serviceWorker' in navigator) {
+	 // if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('/batchsdk-worker-loader.js');
         });
-      }
+      // }
       batchSDK("ui.show", "alert", true);
 </script>
 
