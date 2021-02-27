@@ -25,7 +25,7 @@
 
 <body>
 
-<h2>Test in-app-messaging-11</h2>
+<h2>Test in-app-messaging-12</h2>
 
 <p>a simple web page to test in-app-message </p>
 
