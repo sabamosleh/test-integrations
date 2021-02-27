@@ -43,11 +43,25 @@
 <script>
 
 	 // if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/batchsdk-worker-loader.js');
-        });
+        // window.addEventListener('load', () => {
+        //   navigator.serviceWorker.register('/batchsdk-worker-loader.js');
+        // });
       // }
       // batchSDK("ui.show", "alert", true);
+
+      if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/batchsdk-worker-loader.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
+
 </script>
 
    <!-- Pushe.init("5ej158r7z9r8278e");
