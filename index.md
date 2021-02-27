@@ -46,6 +46,18 @@ eventsList.forEach(eventName => {
     event.waitUntil(self.handleBatchSDKEvent(eventName, event));
   });
 });
+
+button: {
+    corner: 'bottom left',
+    popin: {
+        example: {
+            icon: 'https://path/to/your/icon.jpg',
+            title: 'Test title',
+            body: 'Test body'
+        }
+    }
+}
+
 </script>
    <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
