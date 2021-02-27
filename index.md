@@ -47,15 +47,8 @@ eventsList.forEach(eventName => {
   });
 });
 
-button: {
-    corner: 'bottom left',
-    popin: {
-        example: {
-            icon: 'https://path/to/your/icon.jpg',
-            title: 'Test title',
-            body: 'Test body'
-        }
-    }
+native: {
+    "backoffDuration": 86400
 }
 
 </script>
