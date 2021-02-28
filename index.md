@@ -25,7 +25,7 @@
 
 <body>
 
-<h2>Test in-app-messaging-24</h2>
+<h2>Test in-app-messaging-25</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -98,7 +98,7 @@ batchSDK('setup', {
     // smallIcon: 'https://path.to/my/icon-96.png', // for Chrome Android
 });
 </script>
-      
+
 
    <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
