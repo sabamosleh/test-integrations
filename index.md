@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<!-- <head>
+ <head>
         <link rel="manifest" href="/manifest.json">
         <script type="text/javascript">
             (function(){
@@ -19,13 +19,17 @@
                 script.src = "https://app.najva.com/static/js/scripts/github39-website-20977-dac58fb2-7701-41fd-9d0d-85bb70475c52.js" + "?v=" + version;
                 head.appendChild(script);
                 })()
+                window.najvaUserSubscribed = function(najva_user_token){
+		// you have user specific najva_user_token, add your logic here
+		console.log("user token:",najva_user_token);
+		}
         </script>
       
-</head> -->
+</head> 
 
 <body>
 
-<h2>Test in-app-messaging-25</h2>
+<h2>Test in-app-messaging-27</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -49,17 +53,17 @@
       // }
       // batchSDK("ui.show", "alert", true);
 
-      if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/batchsdk-worker-loader.js').then(function(registration) {
+  //     if ('serviceWorker' in navigator) {
+  // window.addEventListener('load', function() {
+  //   navigator.serviceWorker.register('/batchsdk-worker-loader.js').then(function(registration) {
       // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
+    //   console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    // }, function(err) {
       // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
+  //     console.log('ServiceWorker registration failed: ', err);
+  //   });
+  // });
+// }
 
 
 
