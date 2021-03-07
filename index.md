@@ -3,6 +3,7 @@
 
  <head>
         <link rel="manifest" href="/manifest.json">
+      <!-- Najva Push Notification -->
         <script type="text/javascript">
             (function(){
                 var now = new Date();
@@ -19,17 +20,23 @@
                 script.src = "https://app.najva.com/static/js/scripts/github39-website-20977-dac58fb2-7701-41fd-9d0d-85bb70475c52.js" + "?v=" + version;
                 head.appendChild(script);
                 })()
-                window.najvaUserSubscribed = function(najva_user_token){
-		// you have user specific najva_user_token, add your logic here
-		console.log("user token:",najva_user_token);
-		}
         </script>
+        <!-- END NAJVA PUSH NOTIFICATION -->
       
+ <script>
+   window.najvaUserSubscribed = function(najva_user_token){
+   // you have user specific najva_user_token, add your logic here
+   console.log("token1:",najvaUserSubscribed);
+      console.log("token3:",najva_user_token);
+
+
+    }
+ </script>
 </head> 
 
 <body>
 
-<h2>Test in-app-messaging-27</h2>
+<h2>Test in-app-messaging-28</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -45,6 +52,7 @@
 <!--<script src="https://batch.com/batchsdk-worker-loader.js"></script>-->
 
 <script>
+   console.log("token2:",window.najvaUserSubscribed());
 
 	 // if ('serviceWorker' in navigator) {
         // window.addEventListener('load', () => {
@@ -70,7 +78,7 @@
 
 </script>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
       /* Load remote Batch SDK JavaScript code */
 (function(b,a,t,c,h,e,r){h='batchSDK';b[h]=b[h]||function() {
     (b[h].q=b[h].q||[]).push(arguments)};e=a.createElement(t),r=a.getElementsByTagName(t)[0];
@@ -102,7 +110,7 @@ batchSDK('setup', {
     // smallIcon: 'https://path.to/my/icon-96.png', // for Chrome Android
 });
 </script>
-
+ -->
 
    <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
