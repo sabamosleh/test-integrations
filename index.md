@@ -36,7 +36,7 @@
 
 <body>
 
-<h2>Test in-app-messaging-28</h2>
+<h2>Test in-app-messaging-29</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -77,40 +77,6 @@
 
 
 </script>
-
-<!-- <script type="text/javascript">
-      /* Load remote Batch SDK JavaScript code */
-(function(b,a,t,c,h,e,r){h='batchSDK';b[h]=b[h]||function() {
-    (b[h].q=b[h].q||[]).push(arguments)};e=a.createElement(t),r=a.getElementsByTagName(t)[0];
-    e.async=1;e.src=c;r.parentNode.insertBefore(e,r);})(window,document,'script','https://via.batch.com/v2/bootstrap.min.js');
-
-/* Initiate Batch SDK opt-in UI configuration (native prompt) */
-var batchSDKUIConfig = {
-    native: {}
-};
-
-/* Use a specific configuration for the Firefox web browser (custom prompt) */
-if (navigator.userAgent.indexOf("Firefox") !== -1) {
-    batchSDKUIConfig = {
-        alert: {
-            icon: 'https://secure.url.to.your.icon.jpg'
-        }
-    }
-}
-
-/* Finalize the Batch SDK setup */
-batchSDK('setup', {
-    apiKey: '93F319901DB0475A854CBCD40205992F',
-    subdomain: 'github2',
-    authKey: '2.kLKt2qfhapVDgzz5aOAUCcEcJmUZDg8wYW1Q9vQEWtk=',
-    dev: true, // remove this for prod
-    vapidPublicKey: 'BCPiIEpZRj6ujamkOzoMZl8O0Epmt3ZGrQBXNUN+anNyUfQ8aiAbpieGAw2e+sxYER7KjJxUhxOtT/ep161lV+8=',
-    ui: batchSDKUIConfig,
-    // defaultIcon: 'https://path.to/my/logo-192/png', // for Chrome desktop
-    // smallIcon: 'https://path.to/my/icon-96.png', // for Chrome Android
-});
-</script>
- -->
 
    <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
