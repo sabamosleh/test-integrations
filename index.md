@@ -52,7 +52,7 @@
 <!--<script src="https://batch.com/batchsdk-worker-loader.js"></script>-->
 
 <script>
-   // console.log("token2:",window.najvaUserSubscribed());
+   console.log("token2:",window.najvaUserSubscribed());
 
 	 // if ('serviceWorker' in navigator) {
         // window.addEventListener('load', () => {
