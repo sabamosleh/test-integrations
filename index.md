@@ -26,7 +26,7 @@
  <script>
    window.najvaUserSubscribed = function(najva_user_token){
    // you have user specific najva_user_token, add your logic here
-   console.log("token1:",najvaUserSubscribed);
+   // console.log("token1:",najvaUserSubscribed);
       console.log("token3:",najva_user_token);
 
 
@@ -52,7 +52,7 @@
 <!--<script src="https://batch.com/batchsdk-worker-loader.js"></script>-->
 
 <script>
-   console.log("token2:",window.najvaUserSubscribed());
+   // console.log("token2:",window.najvaUserSubscribed());
 
 	 // if ('serviceWorker' in navigator) {
         // window.addEventListener('load', () => {
