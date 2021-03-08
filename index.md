@@ -24,13 +24,12 @@
 
 
 
-
 <script src="https://static.pushe.co/pusheweb.js"></script>
 <script>
-
-    Pushe.init("5ej158rzl6738v2e");
-Pushe.subscribe({"showDialog":true,"icon":"https://static.pushe.co/d/webpush/default-icon.png","title":"نوتیف؟","content":"می‌خواهید از آخرین اخبار و پیشنهادات آگاه شوید؟","position":"bottom-right","direction":"rtl","acceptText":"قبول می کنم","rejectText":"تمایلی ندارم","promptTheme":"pushe-prompt-theme2","mobilePosition":"top","dialogRetryRate":0});
+    Pushe.init("5dn6oxznp76pnxje");
+Pushe.subscribe({"showDialog":true,"icon":"https://static.pushe.co/d/webpush/default-icon.png","title":"notif?","content":"می‌خواهید از آخرین اخبار و پیشنهادات آگاه شوید؟","position":"top-center","direction":"rtl","acceptText":"قبول می کنم","rejectText":"تمایلی ندارم","promptTheme":"pushe-prompt-theme2","mobilePosition":"top","dialogRetryRate":0});
 </script>
+
 	
    <!-- Pushe.init("5ej158r7z9r8278e");
     Pushe.subscribe();
