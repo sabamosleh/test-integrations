@@ -10,7 +10,7 @@
 
 <body>
 
-<h2>Test in-app-messaging-45-one signal is on board</h2>
+<h2>Test in-app-messaging-46-one signal is on board</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -31,7 +31,6 @@ var OneSignal = OneSignal || [];
 </script>
 	
 <script>
-	var OneSignal = OneSignal || [];
 
 OneSignal.push(["init", {
   appId: "aed47042-40cf-4f9a-9d75-b11579f02f17",
