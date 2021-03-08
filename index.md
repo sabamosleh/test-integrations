@@ -10,7 +10,7 @@
 
 <body>
 
-<h2>Test in-app-messaging-46-one signal is on board</h2>
+<h2>Test in-app-messaging-47-one signal is on board</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -60,6 +60,8 @@ OneSignal.push(function() {
     console.log("OneSignal User ID:", userId);
     // (Output) OneSignal User ID: 270a35cd-4dda-4b3f-b04e-41d7463a2316    
   });
+  });
+
 
 
 </script>	
