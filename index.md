@@ -33,8 +33,6 @@
 <button onclick="document.getElementById('myImage').src='https://www.google.com/images/srpr/logo4w.png'">Turn off the light</button>
 
 
-
-<script src="https://static.pushe.co/pusheweb.js"></script>
 <script>
    
 </script>
