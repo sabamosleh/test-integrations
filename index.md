@@ -3,14 +3,24 @@
 
  <head>
         
- <script>
+ <script type="text/javascript">
+
+ 	 !function(){
+         	function t()
+         	{
+         		var t=document.createElement("script");
+         		t.type="text/javascript",t.async=!0,
+         		localStorage.getItem("rayToken")?t.src="https://app.raychat.io/scripts/js/"+o+"?rid="+localStorage.getItem("rayToken")+"&href="+window.location.href:t.src="https://app.raychat.io/scripts/js/"+o+"?href="+window.location.href;
+         		var e=document.getElementsByTagName("script")[0];
+         		e.parentNode.insertBefore(t,e)}var e=document,a=window,o="7f49f12c-94e7-4fea-9328-a81e16f44458";"complete"==e.readyState?t():a.attachEvent?a.attachEvent("onload",t):a.addEventListener("load",t,!1)}();
+
 
  </script>
 </head> 
 
 <body>
 
-<h2>Test in-app-messaging-42</h2>
+<h2>Test in-app-messaging-43</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -26,8 +36,7 @@
 
 <script src="https://static.pushe.co/pusheweb.js"></script>
 <script>
-    Pushe.init("5dn6oxznp76pnxje");
-Pushe.subscribe({"showDialog":true,"icon":"https://static.pushe.co/d/webpush/default-icon.png","title":"notif?","content":"می‌خواهید از آخرین اخبار و پیشنهادات آگاه شوید؟","position":"top-center","direction":"rtl","acceptText":"قبول می کنم","rejectText":"تمایلی ندارم","promptTheme":"pushe-prompt-theme2","mobilePosition":"top","dialogRetryRate":0});
+   
 </script>
 
 	
