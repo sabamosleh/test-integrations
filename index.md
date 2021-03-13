@@ -32,15 +32,5 @@
 
 <button onclick="document.getElementById('myImage').src='https://www.google.com/images/srpr/logo4w.png'">Turn off the light</button>
 
-
-<script>
-   
-</script>
-
-	
-   <!-- Pushe.init("5ej158r7z9r8278e");
-    Pushe.subscribe();
--->
-
 </body>
 </html>
