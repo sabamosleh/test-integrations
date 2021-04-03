@@ -7,7 +7,7 @@
 
 <body>
 
-<h2>Test firebase notif 1</h2>
+<h2>Test firebase notif 2</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -41,6 +41,30 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+  
+  const messaging = firebase.messaging();
+  
+  // Add the public key generated from the console here.
+messaging.getToken({vapidKey: "BMgqPg1XO-JyrhzY20T0uXCkr8LAC4dnPOj81REBdoVYFP1iKnemaLuNFDWAIVc-ByUltklouKLy-_2i3OHVf9Q"});
+
+// Get registration token. Initially this makes a network call, once retrieved
+// subsequent calls to getToken will return from cache.
+messaging.getToken({ vapidKey: 'BMgqPg1XO-JyrhzY20T0uXCkr8LAC4dnPOj81REBdoVYFP1iKnemaLuNFDWAIVc-ByUltklouKLy-_2i3OHVf9Q' }).then((currentToken) => {
+  if (currentToken) {
+    // Send the token to your server and update the UI if necessary
+    // ...
+    console.log('current token is: ',currentToken);
+  } else {
+    // Show permission request UI
+    console.log('No registration token available. Request permission to generate one.');
+    // ...
+  }
+}).catch((err) => {
+  console.log('An error occurred while retrieving token. ', err);
+  // ...
+});
+
+  
 </script>
 
 </body>
