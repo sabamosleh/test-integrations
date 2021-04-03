@@ -7,7 +7,7 @@
 
 <body>
 
-<h2>Test firebase notif 5</h2>
+<h2>Test firebase notif 6</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -24,34 +24,30 @@
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js"></script>
 
 <script>
   // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyBraehDytmyUtTOdvL4W5qcceE9njqMdVQ",
-    authDomain: "fir-notif-test.firebaseapp.com",
-    projectId: "fir-notif-test",
-    storageBucket: "fir-notif-test.appspot.com",
-    messagingSenderId: "508125997354",
-    appId: "1:508125997354:web:a95e81c801a935a3e9d653",
-    measurementId: "G-EWNXXS9M50"
+    apiKey: "AIzaSyCyOapqXjFcM0pLtJirh82OB9YW5oILiak",
+    authDomain: "second-test-notif.firebaseapp.com",
+    projectId: "second-test-notif",
+    storageBucket: "second-test-notif.appspot.com",
+    messagingSenderId: "22779366790",
+    appId: "1:22779366790:web:001c57042c10b4ec07b007"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  //firebase.analytics();
+</script>
+
   
   const messaging = firebase.messaging();
   
   // Add the public key generated from the console here.
-messaging.getToken({vapidKey: "BMgqPg1XO-JyrhzY20T0uXCkr8LAC4dnPOj81REBdoVYFP1iKnemaLuNFDWAIVc-ByUltklouKLy-_2i3OHVf9Q"});
+messaging.getToken({vapidKey: "BNRi_2SkrzOyFt5FB_YK9iRW-Urtw5AdVNBwECBLqI0LOy3IQkyG3pTNKUG37HwAMgwpYwZZ_ZOdhclZiTYonvo"});
 
 // Get registration token. Initially this makes a network call, once retrieved
 // subsequent calls to getToken will return from cache.
-messaging.getToken({ vapidKey: 'BMgqPg1XO-JyrhzY20T0uXCkr8LAC4dnPOj81REBdoVYFP1iKnemaLuNFDWAIVc-ByUltklouKLy-_2i3OHVf9Q' }).then((currentToken) => {
+messaging.getToken({ vapidKey: 'BNRi_2SkrzOyFt5FB_YK9iRW-Urtw5AdVNBwECBLqI0LOy3IQkyG3pTNKUG37HwAMgwpYwZZ_ZOdhclZiTYonvo' }).then((currentToken) => {
   if (currentToken) {
     // Send the token to your server and update the UI if necessary
     // ...
