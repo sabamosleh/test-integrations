@@ -7,7 +7,7 @@
 
 <body>
 
-<h2>Test firebase notif 4</h2>
+<h2>Test firebase notif 5</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -25,8 +25,8 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-messaging.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js"></script>
 
 <script>
   // Your web app's Firebase configuration
