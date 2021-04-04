@@ -7,7 +7,7 @@
 
 <body>
 
-<h2>Test firebase notif push-service 1</h2>
+<h2>Test firebase notif push-service 2</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -34,7 +34,7 @@
     appId: "1:984423015969:web:8003019eafc54b1457e560"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  // firebase.initializeApp(firebaseConfig);
 
 firebase.initializeApp(firebaseConfig);
   const messaging = firebase.messaging();
