@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<head></head> 
+<head>
+	<link rel="manifest" href="manifest.json" />
+</head>
 
 <body>
 
-<h2>Test firebase notif 14</h2>
+<h2>Test firebase notif 15</h2>
 
 <p>a simple web page to test in-app-message </p>
 
