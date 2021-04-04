@@ -15,10 +15,11 @@ importScripts("https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js");
     messagingSenderId: "22779366790",
     appId: "1:22779366790:web:001c57042c10b4ec07b007"
   };
-  
-  firebase.initializeApp(firebaseConfig);
+
+   firebase.initializeApp(firebaseConfig);
+
+
   const messaging = firebase.messaging();
-  
   messaging.usePublicVapidKey('BNRi_2SkrzOyFt5FB_YK9iRW-Urtw5AdVNBwECBLqI0LOy3IQkyG3pTNKUG37HwAMgwpYwZZ_ZOdhclZiTYonvo');
   messaging.onMessage((payload) => {
   console.log('Message received. ', payload);
