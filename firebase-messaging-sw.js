@@ -1,5 +1,7 @@
-<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js"></script>
+
+importScripts("https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js");
+importScripts("https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js");
+
 
 
 <script>
