@@ -5,7 +5,7 @@
 
 <body>
 
-<h2>Test firebase notif 12</h2>
+<h2>Test firebase notif 13</h2>
 
 <p>a simple web page to test in-app-message </p>
 
