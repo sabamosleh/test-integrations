@@ -17,9 +17,8 @@ importScripts("https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js");
   };
   
   firebase.initializeApp(firebaseConfig);
-
-
   const messaging = firebase.messaging();
+  
   messaging.usePublicVapidKey('BNRi_2SkrzOyFt5FB_YK9iRW-Urtw5AdVNBwECBLqI0LOy3IQkyG3pTNKUG37HwAMgwpYwZZ_ZOdhclZiTYonvo');
   messaging.onMessage((payload) => {
   console.log('Message received. ', payload);
