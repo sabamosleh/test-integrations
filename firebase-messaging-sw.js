@@ -1,24 +1,22 @@
-<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
 
 <script>
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyBraehDytmyUtTOdvL4W5qcceE9njqMdVQ",
-    authDomain: "fir-notif-test.firebaseapp.com",
-    projectId: "fir-notif-test",
-    storageBucket: "fir-notif-test.appspot.com",
-    messagingSenderId: "508125997354",
-    appId: "1:508125997354:web:a95e81c801a935a3e9d653",
-    measurementId: "G-EWNXXS9M50"
+ var firebaseConfig = {
+    apiKey: "AIzaSyCyOapqXjFcM0pLtJirh82OB9YW5oILiak",
+    authDomain: "second-test-notif.firebaseapp.com",
+    projectId: "second-test-notif",
+    storageBucket: "second-test-notif.appspot.com",
+    messagingSenderId: "22779366790",
+    appId: "1:22779366790:web:001c57042c10b4ec07b007"
   };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  //firebase.analytics();
+
+  const messaging = firebase.messaging();
+  messaging.usePublicVapidKey('BNRi_2SkrzOyFt5FB_YK9iRW-Urtw5AdVNBwECBLqI0LOy3IQkyG3pTNKUG37HwAMgwpYwZZ_ZOdhclZiTYonvo');
+
+ 
 </script>
 

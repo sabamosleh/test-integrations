@@ -5,7 +5,7 @@
 
 <body>
 
-<h2>Test firebase notif 8</h2>
+<h2>Test firebase notif 10</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -25,11 +25,6 @@
   };
 
   firebase.initializeApp(firebaseConfig);
-</script>
-
-  
-
-  
 </script>
 
 </body>
