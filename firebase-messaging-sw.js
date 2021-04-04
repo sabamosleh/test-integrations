@@ -3,8 +3,6 @@ importScripts("https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js");
 
 
-
-<script>
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
  var firebaseConfig = {
@@ -22,5 +20,4 @@ importScripts("https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js");
   const messaging = firebase.messaging();
   
  
-</script>
 
