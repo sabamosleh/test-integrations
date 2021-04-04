@@ -5,13 +5,16 @@
 
 <body>
 
-<h2>Test firebase notif 13</h2>
+<h2>Test firebase notif 14</h2>
 
 <p>a simple web page to test in-app-message </p>
 
 <p>What do i know?</p>
 
 <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js"></script>
+
 
 <script>
 
