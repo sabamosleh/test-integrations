@@ -24,6 +24,13 @@ importScripts("https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js");
   // ...
 });
 
+  
+firebase.initializeApp(firebaseConfig);
+
+if (firebase.messaging.isSupported()) {
+  firebase.messaging();
+}
+
 messaging.onBackgroundMessage((payload) => {
   console.log('[firebase-messaging-sw.js] Received background message ', payload);
   // Customize notification here
