@@ -32,19 +32,6 @@
   firebase.initializeApp(firebaseConfig);
   const messaging = firebase.messaging();
 
-  messaging.getToken({ vapidKey: 'BNRi_2SkrzOyFt5FB_YK9iRW-Urtw5AdVNBwECBLqI0LOy3IQkyG3pTNKUG37HwAMgwpYwZZ_ZOdhclZiTYonvo' }).then((currentToken) => {
-  if (currentToken) {
-    
-    console.log('currentToken is:',currentToken);
-  } else {
-
-    console.log('No registration token available. Request permission to generate one.');
-
-  }
-}).catch((err) => {
-  console.log('An error occurred while retrieving token. ', err);
-
-});
 
 messaging.usePublicVapidKey('BNRi_2SkrzOyFt5FB_YK9iRW-Urtw5AdVNBwECBLqI0LOy3IQkyG3pTNKUG37HwAMgwpYwZZ_ZOdhclZiTYonvo');
   messaging.onMessage((payload) => {
@@ -68,6 +55,24 @@ messaging.onBackgroundMessage((payload) => {
 
   self.registration.showNotification(notificationTitle,
     notificationOptions);
+});
+
+
+
+
+
+  messaging.getToken({ vapidKey: 'BNRi_2SkrzOyFt5FB_YK9iRW-Urtw5AdVNBwECBLqI0LOy3IQkyG3pTNKUG37HwAMgwpYwZZ_ZOdhclZiTYonvo' }).then((currentToken) => {
+  if (currentToken) {
+    
+    console.log('currentToken is:',currentToken);
+  } else {
+
+    console.log('No registration token available. Request permission to generate one.');
+
+  }
+}).catch((err) => {
+  console.log('An error occurred while retrieving token. ', err);
+
 });
 
 
