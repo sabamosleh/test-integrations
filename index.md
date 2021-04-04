@@ -7,7 +7,7 @@
 
 <body>
 
-<h2>Test firebase notif 24</h2>
+<h2>Test firebase notif 300</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -19,13 +19,13 @@
 
 <script>
 
-  var firebaseConfig = {
-    apiKey: "AIzaSyCyOapqXjFcM0pLtJirh82OB9YW5oILiak",
-    authDomain: "second-test-notif.firebaseapp.com",
-    projectId: "second-test-notif",
-    storageBucket: "second-test-notif.appspot.com",
-    messagingSenderId: "22779366790",
-    appId: "1:22779366790:web:001c57042c10b4ec07b007"
+   var firebaseConfig = {
+    apiKey: "AIzaSyDD2Z6QszCzx2uAoAMIv1yW3juQq7qJgEY",
+    authDomain: "push-service-928e8.firebaseapp.com",
+    projectId: "push-service-928e8",
+    storageBucket: "push-service-928e8.appspot.com",
+    messagingSenderId: "249606103679",
+    appId: "1:249606103679:web:1e23c81d4a877525fa154a"
   };
 
   firebase.initializeApp(firebaseConfig);
