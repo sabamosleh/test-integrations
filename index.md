@@ -7,7 +7,7 @@
 
 <body>
 
-<h2>Test firebase notif 23</h2>
+<h2>Test firebase notif 24</h2>
 
 <p>a simple web page to test in-app-message </p>
 
@@ -37,6 +37,7 @@ messaging.getToken({ vapidKey: 'BNRi_2SkrzOyFt5FB_YK9iRW-Urtw5AdVNBwECBLqI0LOy3I
   if (currentToken) {
     // Send the token to your server and update the UI if necessary
     // ...
+    console.log('currentToken: ',currentToken);
   } else {
     // Show permission request UI
     console.log('No registration token available. Request permission to generate one.');
